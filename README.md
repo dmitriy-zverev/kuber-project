@@ -10,10 +10,10 @@ SynergyChat is a production-grade, cloud-native chat application built for enter
 SynergyChat follows a microservices architecture pattern with the following components:
 
 ```
-┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   Web Frontend  │    │   API Gateway   │    │  Crawler Service│
-│   (React/Vue)   │    │   (REST API)    │    │  (Multi-instance)│
-└─────────────────┘    └─────────────────┘    └─────────────────┘
+┌─────────────────┐    ┌─────────────────┐    ┌───────────────────┐
+│   Web Frontend  │    │   API Gateway   │    │  Crawler Service  │
+│   (React/Vue)   │    │   (REST API)    │    │  (Multi-instance) │
+└─────────────────┘    └─────────────────┘    └───────────────────┘
          │                       │                       │
          └───────────────────────┼───────────────────────┘
                                  │
